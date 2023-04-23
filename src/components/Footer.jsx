@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
 import { BsWhatsapp, BsFacebook, BsInstagram, BsGoogle } from "react-icons/bs";
-import Logo from "../assets/logo//Diseño sin título (37).png"
+import Logo from "../assets/logo/Diseño sin título (38).png"
 
 function Footer() {
     return (
@@ -118,7 +118,7 @@ function Footer() {
 
         <div
           className="text-center p-4"
-          style={{ backgroundColor: "#ffa71e", color: "white" }}
+          style={{ backgroundColor: "#a5111a", color: "white" }}
         >
           Pascal Correa© 2021 Copyright
         </div>

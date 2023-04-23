@@ -43,10 +43,16 @@
 
 /* HEADER */
 
+.header-container {
+    background-color: #a5111a !important;
+    display: flex;
+    padding: 20px;
+}
 
 .logo-header {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
 }
 
 .navbar-expand-md .navbar-collapse {
@@ -56,11 +62,171 @@
 }
 
 a.nav-link {
-    font-size: 20px;
-    padding: 20px;
-    color: #ffa71e;
+    font-size: 22px;
+    padding-left: 22px !important;
+    
+    color: white;
 }
 
 a.nav-link:hover {
-    color: #cc9939;
+    color: #ffa71e;
+}
+
+
+/* INICIO */
+
+
+
+.slider-container {
+    display: grid;
+}
+
+.col {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+.slider {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.texto-container {
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.h2-incio {
+    color: #ffa71e;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.p-inicio {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.p-inicio2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.icono-container {
+    margin: 10px 20px 10px 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+}
+
+.icono-inicio {
+    color: black;
+    width: 60px;
+    height: 50px;
+    transition: 0.8s all;
+}
+
+.icono-inicio:hover {
+    transform: scale(1.3);
+}
+
+.icono-container:hover .p-inicio {
+    color: #ffa71e;
+}
+
+@media screen and (max-width: 750px) {
+    .inicio-container {
+        display: grid;
+    }
+    .h2-incio {
+        font-size: 45px;
+    }
+    .p-inicio2 {
+        font-size: 22px;
+    }
+    .p-inicio {
+        font-size: 18px;
+    }
+    .icono-inicio {
+        width: 60px;
+    }
+    .texto-container {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .h2-incio {
+        font-size: 35px;
+    }
+    .p-inicio2 {
+        font-size: 18px;
+    }
+    .p-inicio {
+        font-size: 14px;
+    }
+    .icono-inicio {
+        width: 45px;
+    }
+    .texto-container {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .h2-incio {
+        font-size: 30px;
+    }
+    .p-inicio2 {
+        font-size: 15px;
+    }
+    .p-inicio {
+        font-size: 12px;
+    }
+    .icono-inicio {
+        width: 40px;
+    }
+}
+
+/* CARTA */
+
+.menu-box {
+    margin: 10px;
+    width: 30%;
+}
+
+/* CONTACTO */
+
+.contact-button {
+    background-color: transparent;
+    border-color: #ffa71e;
+    color: #ffa71e;
+    margin-top: 25px;
+    width: 100%;
+    
+}
+
+.contact-button:hover {
+    background-color: #ffa71e;
+    border-color: #ffa71e;
 }
