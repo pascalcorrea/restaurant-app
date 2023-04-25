@@ -20,10 +20,9 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav" className="text-center justify-content-end">
             <Nav className="nav-menu">
               <Nav.Link href="/">Inicio</Nav.Link>
-              <Nav.Link href="/carta">Carta</Nav.Link>
-              <Nav.Link href="/contacto">Contacto</Nav.Link>
-              <Nav.Link href="/ubicacion">Ubicación</Nav.Link>
-              <Nav.Link href="/reservar-hora">Reservar Mesa</Nav.Link>
+              <Nav.Link href="/carta">Nuestra carta</Nav.Link>
+              <Nav.Link href="/contacto">Contacto y ubicación</Nav.Link>
+              <Nav.Link href="/reservar-hora">Reserva de mesa</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

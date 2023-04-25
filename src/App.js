@@ -12,7 +12,6 @@ function App() {
           <Route path="/" element={<Inicio/>} />
           <Route path="/carta" element={<Carta/>} />
           <Route path="/contacto" element={<Contacto/>} />
-          <Route path="/ubicacion" element={<Ubicacion/>} />
           <Route path="/reservar-hora" element={<ReservarHora/>} />
       </Routes>
     </>

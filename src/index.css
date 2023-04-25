@@ -56,7 +56,7 @@
 }
 
 .navbar-expand-md .navbar-collapse {
-    display: flex!important;
+    display: flex !important;
     flex-basis: auto;
     justify-content: flex-end
 }
@@ -64,7 +64,7 @@
 a.nav-link {
     font-size: 22px;
     padding-left: 22px !important;
-    
+
     color: white;
 }
 
@@ -90,6 +90,7 @@ a.nav-link:hover {
     padding: 0;
     margin: 0;
 }
+
 .slider {
     width: 100%;
     padding: 0;
@@ -158,18 +159,23 @@ a.nav-link:hover {
     .inicio-container {
         display: grid;
     }
+
     .h2-incio {
         font-size: 45px;
     }
+
     .p-inicio2 {
         font-size: 22px;
     }
+
     .p-inicio {
         font-size: 18px;
     }
+
     .icono-inicio {
         width: 60px;
     }
+
     .texto-container {
         padding: 20px;
     }
@@ -179,15 +185,19 @@ a.nav-link:hover {
     .h2-incio {
         font-size: 35px;
     }
+
     .p-inicio2 {
         font-size: 18px;
     }
+
     .p-inicio {
         font-size: 14px;
     }
+
     .icono-inicio {
         width: 45px;
     }
+
     .texto-container {
         padding: 20px;
     }
@@ -197,12 +207,15 @@ a.nav-link:hover {
     .h2-incio {
         font-size: 30px;
     }
+
     .p-inicio2 {
         font-size: 15px;
     }
+
     .p-inicio {
         font-size: 12px;
     }
+
     .icono-inicio {
         width: 40px;
     }
@@ -223,10 +236,95 @@ a.nav-link:hover {
     color: #ffa71e;
     margin-top: 25px;
     width: 100%;
-    
+
 }
 
 .contact-button:hover {
     background-color: #ffa71e;
     border-color: #ffa71e;
+}
+
+/* reserva */
+
+.reservation-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 60px;
+    width: 50%;
+}
+
+.reservation-description {
+    width: 100%;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.restaurant-image {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+
+.resrva-img {
+    height: 100%;
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.reserva-button {
+    background-color: transparent;
+    border-color: #ffa71e;
+    color: #ffa71e;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.reserva-button:hover {
+    background-color: #ffa71e;
+    border-color: #ffa71e;
+    color: white;
+}
+
+@media screen and (max-width: 1560px) {
+    .reservation-page {
+        display: grid;
+    }
+
+    .reservation-form {
+        width: 100%;
+    }
+
+    .restaurant-image {
+        width: 100%;
+    }
 }
