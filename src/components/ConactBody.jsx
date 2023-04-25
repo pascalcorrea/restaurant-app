@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
-
 function ContactBody() {
   return (
     <Container className="my-5">
-      <h2 className="text-center mb-5">Contáctanos</h2>
+      <h2 className="h2-incio  text-center mb-5">Contáctanos</h2>
       <Row>
         <Col md={6}>
           <h4>Información de contacto</h4>
@@ -34,11 +33,11 @@ function ContactBody() {
             </Button>
           </Form>
         </Col>
-
+        <Col md={6}>
+        </Col>
       </Row>
     </Container>
   );
 }
 
 export default ContactBody;
-

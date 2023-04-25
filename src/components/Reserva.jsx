@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import restaurantImage from "../assets/slider/pexels-bonus-studio-5488052.jpg";
-import { Button } from "react-bootstrap";
+import restaurantImage from "../assets/slider/Diseño sin título (39).png";
+import { Button, Form, Col } from "react-bootstrap";
 
 function ReservationForm() {
   const [name, setName] = useState("");
@@ -14,62 +14,69 @@ function ReservationForm() {
   }
 
   return (
-    <div className="reservation-page">
-      <form className="reservation-form" onSubmit={handleSubmit}>
-        <div className="reservation-description">
-          <h2>Reserva una mesa en nuestro restaurante</h2>
-          <p>
-            Estamos emocionados de tenerte como nuestro invitado. Por favor,
-            completa el formulario a continuación para reservar una mesa en
-            nuestro restaurante.
-          </p>
-        </div>
-        <div className="form-group">
-          <label htmlFor="name-input">Nombre:</label>
-          <input
-            id="name-input"
-            type="text"
-            value={name}
-            onChange={(event) => setName(event.target.value)}
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="name-input">Numero de personas:</label>
-          <input
-            id="number-input"
-            type="number"
-            value={number}
-            onChange={(event) => setNumber(event.target.value)}
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="date-input">Fecha:</label>
-          <input
-            id="date-input"
-            type="date"
-            value={date}
-            onChange={(event) => setDate(event.target.value)}
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="time-input">Hora:</label>
-          <input
-            id="time-input"
-            type="time"
-            value={time}
-            onChange={(event) => setTime(event.target.value)}
-          />
-        </div>
-        <Button variant="primary" type="submit" className="reserva-button">
-          Reservar
-        </Button>
-      </form>
-
-      <div className="restaurant-image">
-        <img src={restaurantImage} alt="Restaurante" className="resrva-img" />
-      </div>
-    </div>
+    <section className="reservation-page">
+      <h2 className="h2-incio text-center mb-5">Reserva de hora</h2>
+      <Col>
+        <Col>
+          <Form className="reservation-form" onSubmit={handleSubmit}>
+            <div className="reservation-description">
+              <h2>Reserva una mesa en nuestro restaurante</h2>
+              <p>
+                Estamos emocionados de tenerte como nuestro invitado. Por favor,
+                completa el formulario a continuación para reservar una mesa en
+                nuestro restaurante.
+              </p>
+            </div>
+            <Form.Group className="form-group">
+              <Form.Label>Nombre:</Form.Label>
+              <Form.Control
+                type="text"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+              />
+            </Form.Group>
+            <Form.Group className="form-group">
+              <Form.Label>Numero de personas:</Form.Label>
+              <Form.Control
+                type="number"
+                value={number}
+                onChange={(event) => setNumber(event.target.value)}
+              />
+            </Form.Group>
+            <Form.Group className="form-group">
+              <Form.Label>Fecha:</Form.Label>
+              <Form.Control
+                type="date"
+                value={date}
+                onChange={(event) => setDate(event.target.value)}
+              />
+            </Form.Group>
+            <Form.Group className="form-group">
+              <Form.Label>Hora:</Form.Label>
+              <Form.Control
+                type="time"
+                value={time}
+                onChange={(event) => setTime(event.target.value)}
+              />
+            </Form.Group>
+            <Button variant="primary" type="submit" className="reserva-button">
+              Reservar
+            </Button>
+          </Form>
+        </Col>
+        <Col>
+          <div className="restaurant-image">
+            <img
+              src={restaurantImage}
+              alt="Restaurante"
+              className="reserva-img"
+            />
+          </div>
+        </Col>
+      </Col>
+    </section>
   );
 }
 
 export default ReservationForm;
+

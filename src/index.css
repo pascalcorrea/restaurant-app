@@ -247,84 +247,38 @@ a.nav-link:hover {
 /* reserva */
 
 .reservation-page {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.reservation-form {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    padding: 60px;
-    width: 50%;
-}
-
-.reservation-description {
-    width: 100%;
-
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
+    margin: 3rem 0 0 0;
+    padding: 0;
 }
 
 .restaurant-image {
-    display: flex;
-    justify-content: end;
-    align-items: center;
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
-    width: 50%;
 }
 
-.resrva-img {
+.reserva-img {
+    width: 100%;
     height: 100%;
-    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.form-group {
-    width: 100%;
+.reservation-form {
+    display: grid;
+    padding: 60px;
 }
 
 .reserva-button {
     background-color: transparent;
     border-color: #ffa71e;
     color: #ffa71e;
+    margin-top: 25px;
     width: 100%;
-    margin-top: 10px;
 }
 
 .reserva-button:hover {
     background-color: #ffa71e;
     border-color: #ffa71e;
-    color: white;
-}
-
-@media screen and (max-width: 1560px) {
-    .reservation-page {
-        display: grid;
-    }
-
-    .reservation-form {
-        width: 100%;
-    }
-
-    .restaurant-image {
-        width: 100%;
-    }
 }

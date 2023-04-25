@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import Inicio from './views/Inicio';
 import Carta from './views/Carta';
 import Contacto from './views/Contacto';
-import Ubicacion from './views/Ubicacion';
 import ReservarHora from './views/ReservarHora'; 
 
 function App() {
