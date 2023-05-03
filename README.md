@@ -8,7 +8,7 @@ React.js - CSS - HTML - Boostrap - Firebase
 
 # Links
 
-Despliegue en Netlify: https://harmonious-kelpie-259776.netlify.app/carta
+Despliegue en Netlify: https://harmonious-kelpie-259776.netlify.app/carta <br>
 Repositorio: https://github.com/pascalcorrea/restaurant-app
 
 # Fotos de proyecto 
