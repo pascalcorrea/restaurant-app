@@ -7,7 +7,7 @@ function ReservationForm() {
   const [number, setNumber] = useState("");
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
-
+  // Variables de estado usando useState para almacenar valores del form
   function handleSubmit(event) {
     event.preventDefault();
     // Aquí puedes enviar la información de la reserva a un servidor o guardarla localmente
@@ -79,4 +79,3 @@ function ReservationForm() {
 }
 
 export default ReservationForm;
-
